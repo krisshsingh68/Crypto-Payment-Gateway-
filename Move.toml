@@ -1,0 +1,15 @@
+[package]
+name = "Crypto-Payment-Gateway"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule = "0xa5c691f2e0b8b50c8be3d0265ec4825c30e64727a5e2cf13ba4fe4c88df55356"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
